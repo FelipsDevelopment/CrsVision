@@ -1,3 +1,7 @@
+* { 
+    box-sizing: border-box;
+}
+
 body {
     margin: 50px;
 }
@@ -8,10 +12,19 @@ h2 {
 
 label {
     display: block;
-    padding: 10px;
 }
 
-input[type=text] {
-    height: 20px;
+input[type=text], textarea, select{
+    margin-top: 5px;
+    padding: 5px;
     width: 300px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 2%;
+    
+}
+
+textarea {
+    resize: none;
+    height: 200px;
 }
