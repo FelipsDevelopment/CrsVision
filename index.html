@@ -4,47 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"  /> 
+    <link rel="stylesheet" href="styles.css"  /> 
 </head>
 <body>
-
-    <h2>Área de cadastro</h2>
     
-    <form action="códigos/index.html" method="GET">
+    <form method="POST">
+        <fieldset>
+            <label>
+                Primeiro Nome:<br/>
+                <input type="text" name="nome" />
+            </label><br/>
 
-        <label for="nome"> 
-            Nome completo: <br/>
-            <input type="text" name="nome" id="nome"> 
-        </label>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="sobrenome" />
+            </label><br/>
+        </fieldset>    
 
-        <br/><br/>
+        <fieldset>
+            <label>
+                Nome da empresa:<br/>
+                <input type="text" name="nomeEmpresa" />
+            </label><br/>
 
-        <label>
-            Descrição: <br/>
-            <textarea name="descricao"></textarea>
-        </label>
-        
-        <br/><br/>
+            <label>
+                Cargo na empresa:<br/>
+                <input type="text" name="cargoEmpresa" />
+            </label><br/>
+        </fieldset>
 
-        <label>
-            Categoria: <br/>
-            <select id="categorias">
-                <option value="1">Opção 1</option>
-                <option value="2">Opção 2</option>
-                <option value="3">Opção 3</option>
-                <option value="4">Opção 4</option>
-                <option value="5">Opção 5</option>
-            </select>
-        </label> <br/>
-        
-        <label>
-            <input type="checkbox" />
-            Eu declaro que li e aceito os termos de uso
-        </label><br/>
-
-        <button name="buttonCadastro"> Cadastrar </button>
-
-        <h2>Área de login</h2>
+        <input type="submit" value="cadastrar"/>
     </form>
 
     <script src="./scripts.js"></script>
