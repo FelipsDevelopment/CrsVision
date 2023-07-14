@@ -10,18 +10,21 @@
     
     <form method="POST">
         <fieldset>
-            <label>
-                Primeiro Nome:<br/>
-                <input type="text" name="nome" />
-            </label><br/>
+            <legend>Dados pessoais</legend>  
+                <label>
+                    Primeiro Nome:<br/>
+                    <input type="text" name="nome" required minlength="5"/>
+                </label><br/>
 
-            <label>
-                Sobrenome:<br/>
-                <input type="text" name="sobrenome" />
-            </label><br/>
+                <label>
+                    Sobrenome:<br/>
+                    <input type="text" name="sobrenome" />
+                </label><br/>
+            
         </fieldset>    
 
         <fieldset>
+            <legend>Dados profissionais</legend>
             <label>
                 Nome da empresa:<br/>
                 <input type="text" name="nomeEmpresa" />
