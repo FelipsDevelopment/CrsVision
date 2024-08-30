@@ -6,16 +6,16 @@
 
 .banner {
 width: 100%;
-height: 100vh;
+height: 100%;
 background-size: cover;
 background-position: center;
 }
 
 .banner #particles-js{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.75)),url(background.jfif);background-size: cover;
     background-position: center;
     }
@@ -23,24 +23,33 @@ background-position: center;
 .navbar {
     width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 0 -10px 5px -20px;
     display: flex;
     align-items: center;
-    justify-content:center; 
-    background-color: rgb(26, 25, 25);
+    justify-content:space-between; 
+    background-color: rgb(22, 22, 22);   
+    margin-right: 100px;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 40px;
 }
 
 .navbar ul li {
     list-style: none;
-    display: inline-block;
-    margin: 0 10px;
-    position: relative;
+    display:inline-block;
+    margin: 0 20px;
+    position:relative;
+    
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: #FFF;
     text-transform: uppercase;
+    font-family: Arsenal SC;
 }
 
 .navbar ul li::after{
@@ -71,11 +80,13 @@ background-position: center;
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: quicksand;
 }
 
 .content p {
     font-size: 23px ;
     font-weight: 100;
+    font-family: quicksand;
     
 }
 
