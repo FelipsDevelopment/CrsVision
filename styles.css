@@ -15,20 +15,19 @@ background-position: center;
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.75)),url(background.jfif);background-size: cover;
     background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.75)),url(background.jfif);background-size: cover;
+
     }
 
 .navbar {
     width: 100%;
     margin: auto;
-    padding: 0 -10px 5px -20px;
     display: flex;
     align-items: center;
     justify-content:space-between; 
     background-color: rgb(22, 22, 22);   
-    margin-right: 100px;
+    
 }
 
 .logo {
@@ -77,8 +76,8 @@ background-position: center;
 }
 
 .content h1 {
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 70px;
+    margin-top: 40px;
     margin-bottom: 30px;
     font-family: quicksand;
 }
@@ -308,16 +307,14 @@ color: rgb(207, 207, 207);
 
 .sessao3 {
     display: flex;
-    width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: rgb(37, 37, 37);
 }
 
 .gerenciamento-redes-sociais {
     justify-content: center;
-    margin: 40px;
-    /**background-color: rgb(29, 29, 29);**/
-    width: 1500px;
+    align-items: center;
 }
 
 .titulo-g-sociais h2{
@@ -329,37 +326,54 @@ color: rgb(207, 207, 207);
     font-family: quicksand;
 }
 
-.texto-g-sociais{
-    display: flex;
-    flex-direction: wrap;
-    padding: 10px;
-    margin: 20px 30px 30px;
+.gerenciamento-redes-sociais p {
+    margin-bottom: 20px;
 }
 
-.textos-g {
+.texto-g-sociais{
     display: flex;
-    flex-direction: column;
-    margin: 20px;
+    padding: 5px;
+    margin: auto;
+}
+
+.texto-g-sociais {
+    flex-direction:column;
+    width: 80%;
+}
+
+.textos-g { 
+    display: flex;
+    flex-direction: row;
+    padding:30px;
     align-items: center;
+    margin: 20px;
+    background-color: #181818;
+    box-shadow: 0px 0px 8px 6px #eeedea70;
+    border-radius: 10px;
+    padding: 10px;
+    
 }
 
 .textos-g  h1, p{
     color: rgb(214, 214, 214);
+    margin-left: 5px;
 }
 
 .textos-g  p{
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 
 .textos-g  h1{
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
 }
 
 .textos-g  img{
    height: 110px;
    margin-bottom:20px;
+   margin-right: 20px;
+   margin-left: 20px;
 }
 
 
@@ -409,7 +423,7 @@ color: rgb(207, 207, 207);
 }
 
    .card1 {
-    width: 600px;
+    width: 40%;
     border-radius: 10px;
     box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
     font-size: 15px;
@@ -429,7 +443,7 @@ color: rgb(207, 207, 207);
 
 
 .card2 {
-    width: 600px;
+    width: 40%;
     border-radius: 10px;
     box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
@@ -601,6 +615,26 @@ color: rgb(207, 207, 207);
     box-shadow: 0px 0px 9px 0px #ffffff9a;
 }
 
+.carddev1 {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    font-size: 15px;
+    padding: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.carddev1 p {
+    text-align: justify;
+    margin-top: 30px;
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
+    }
+
+
 .carddev2 {
     width: 600px;
     border-radius: 10px;
@@ -626,6 +660,7 @@ color: rgb(207, 207, 207);
 
 .sessao6{
 background-color: #181818;
+background-size: 100%;
 }
 
 .tituloautomacao {
@@ -633,12 +668,17 @@ background-color: #181818;
     align-items: center;
     display: flex;
     padding-top: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .tituloautomacao h1{
     font-size: 50px;
     color: #FFF;
     font-family: quicksand;
+    margin: 5% 15% 0% 15%;
+    text-align: center;
+
 }
 
 .conteudoautomacao {
@@ -651,7 +691,7 @@ background-color: #181818;
 .p-automacao p {
     text-align: center;
     font-size: 20px;
-    margin: 20px;
+    margin: 3% 15% 3% 15%;
 }
 
 
@@ -670,14 +710,12 @@ background-color: #181818;
 }
 
 .info1automacao {
-    margin: 10px;
+    margin: 0% 15% 0% 15%;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: justify;
     align-items: center;
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
 }
 
 .info1automacao-image{
@@ -687,9 +725,15 @@ background-color: #181818;
     
 }
 
+.info1automacao-text {
+    padding: 10px;
+}
+
 .info1automacao img{
     border-radius: 40px;
-    width: 30%;
+    width: 70px;
+    margin-right: 40px;
+    margin-left: 40px;
     justify-content: justify;
     align-items: center;
 }
@@ -713,4 +757,153 @@ background-color: #181818;
 .p-automacao h2 p {
     font-family: quicksand;
     color: rgb(207, 207, 207);
+}
+
+/**----------------- media queries -----------------**/
+
+
+@media screen and (max-width: 768px) {
+
+ 
+
+    .content h1 {
+        font-size: 40px;
+        
+    }
+
+    .content p {
+        font-size: 16px;
+        margin-bottom: 170px;
+        
+    }
+
+    .titulosobre h1{
+        font-size: 40px;
+    }
+
+    .missaoimg{
+        width: 100px;
+        margin-left: 30px;
+    }
+
+    .compromissoimg {
+        width: 100px;
+        margin-bottom: 6px;
+    }
+
+    .card1 {
+        width: 60%;
+        padding: 30px;
+    }
+    .card1 h2{
+        font-size: 23px;
+    }
+ 
+    .card2 {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .card2 h2{
+        font-size: 23px;
+    }
+
+    .tituloidvisual h1{
+        font-size: 40px;
+
+    }
+
+    .p-idvisual p{
+        font-size: 17px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .titulo-g-sociais h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .gerenciamento-redes-sociais p {
+        font-size: 17px;
+        
+    }
+
+    .texto-g-sociais {
+        flex-direction:column;
+        width: 70%;
+    }
+
+    .textos-g { 
+        margin: 10px;
+        background-color: #181818;
+        box-shadow: 0px 0px 8px 6px #eeedea70;
+        border-radius: 10px;
+        padding: 10px;
+        flex-direction: column;
+        
+    }
+    .textos-g img{ 
+        height: 100px;
+    }
+
+    .texto-g-sociais h1 {
+        font-size: 18px;
+    }
+    .texto-g-sociais img {
+        font-size: 18px;
+    }
+
+    .cards-trafego {
+        flex-direction: column;
+        width: 70%;
+    }
+    
+
+    .tituloidvisual3 h1{
+        font-size: 40px;
+    }
+
+    .sessao4 p {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .tituloDev h1 {
+        font-size: 40px;
+    }
+
+.conteudosobreDev {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+}
+
+.carddev1 {
+    padding: 0;
+}
+
+.carddev1 img {
+    margin-top: 30px;
+}
+
+.carddev1 p {
+    margin:0px;
+}
+
+.tituloautomacao h1{
+font-size: 40px;
+}
+
+.sessao6 p{
+    font-size: 17px;
+}
+
+.banner #particles-js{
+    height:600px;
+    }
+
+
 }
