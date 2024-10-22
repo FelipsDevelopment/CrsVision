@@ -1265,6 +1265,256 @@ p {
 
 @media screen and (max-width: 426px) {
 
+    .conteudosobre {
+    flex-direction: column;
+    }
+
+    
+
+    .content h1 {
+        font-size: 30px;
+
+    }
+
+    .content p {
+        font-size: 13px;
+        margin-bottom: 170px;
+
+    }
+
+    .titulosobre h1 {
+        font-size: 30px;
+    }
+
+    .missaoimg {
+        width: 100px;
+        margin-left: 30px;
+    }
+
+    .compromissoimg {
+        width: 100px;
+        margin-bottom: 6px;
+    }
+
+    .card1 {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .card1 h2 {
+        font-size: 23px;
+    }
+
+    .card2 {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .card2 h2 {
+        font-size: 23px;
+    }
+
+    .tituloidvisual h1 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    .p-idvisual p {
+        font-size: 17px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .titulo-g-sociais h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .gerenciamento-redes-sociais p {
+        font-size: 15px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .texto-g-sociais {
+        flex-direction: column;
+        width: 70%;
+        margin: 0px;
+    }
+
+    .textos-g {
+        margin: 10px;
+        background-color: #181818;
+        box-shadow: 0px 0px 8px 6px #eeedea70;
+        border-radius: 10px;
+        padding: 10px;
+        flex-direction: column;
+
+    }
+
+    .textos-g img {
+        height: 100px;
+    }
+
+    .texto-g-sociais h1 {
+        font-size: 18px;
+    }
+
+    .texto-g-sociais img {
+        font-size: 18px;
+    }
+
+    .cards-trafego {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .sub-sessao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+
+    .tituloidvisual3 h1 {
+        font-size: 30px;
+    }
+
+    .sessao4 p {
+        font-size: 15px;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .tituloDev h1 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .conteudosobreDev {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .carddev1 {
+        padding: 0;
+        width: 76%;
+    }
+
+
+
+    .carddev1 img {
+        margin-top: 30px;
+    }
+
+    .carddev2 img{
+        width: 50%;
+    }
+
+    .carddev1 p {
+        margin: 0px;
+    }
+
+    .carddev2 p {
+        font-size: 15px;
+        padding: 0px 60px 30px 60px;
+        margin: 0px;
+    }
+
+    .tituloautomacao h1 {
+        font-size: 30px;
+    }
+
+    .p-automacao p{
+        font-size: 15px;
+    }
+
+    .sessao6 p {
+        font-size: 15px;
+    }
+
+    .info1automacao {
+        width: 80%;
+        margin: 0px;
+    }
+    .info2automacao {
+        width: 80%;
+        margin: 0px;
+    }
+    .info3automacao {
+        width: 80%;
+        margin: 0px;
+    }
+    .info4automacao {
+        width: 80%;
+        margin: 0px;
+    }
+
+    .banner #particles-js {
+        height: 600px;
+    }
+    /**---------------- Manutenção de aparelhos eletrônicos ----------------**/
+    .conteudoManutencao {
+        flex-direction: column;
+    }
+
+
+
+    .manutencaoImg {
+        width: 40%;
+    }
+
+    .cardmanutencao1 h1{
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .cardmanutencao1 {
+        padding: 0;
+        width: 80%;
+    }
+
+    .cardmanutencao1 p {
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        margin:  0px;
+    }
+    .listaManutencao li{
+
+        font-size: 12px;
+    }
+
+    /**---------------- Configuração de redes e segurança ----------------**/
+
+    .tituloRedes h1{
+        font-size: 30px;
+    }
+
+    .p-Redes p{
+        font-size: 15px;
+    }
+
+    .cardsRedes td{
+        text-align: center;
+        padding: 15px;
+    }
+
+   /**----------------Quem somos----------------**/
+
+    /**----------------Footer----------------**/
+
+    .footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
 
 
     .footer_content {
