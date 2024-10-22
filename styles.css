@@ -1,68 +1,71 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
 .banner {
-width: 100%;
-height: 100%;
-background-size: cover;
-background-position: center;
-}
-
-.banner #particles-js{
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.75)),url(background.jfif);background-size: cover;
+}
 
-    }
+.banner #particles-js {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.75)), url(background.jfif);
+    background-size: cover;
+
+}
 
 .navbar {
     width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content:space-between; 
-    background-color: rgb(22, 22, 22);   
-    
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+
 }
 
 .logo {
-    width: 120px;
+    width: 100px;
     cursor: pointer;
     border-radius: 40px;
 }
 
 .navbar ul li {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     margin: 0 20px;
-    position:relative;
-    
+    position: relative;
+
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: #FFF;
     text-transform: uppercase;
-    font-family: Arsenal SC;
+    font-family: quicksand;
+    font-size: 13px;
 }
 
-.navbar ul li::after{
+.navbar ul li::after {
     content: '';
     height: 3px;
     width: 0;
-    background-color: #F9D933;;
+    background-color: #F9D933;
+    ;
     position: absolute;
     left: 0;
     bottom: -10px;
     transition: 0.3s;
 }
 
-.navbar ul li:hover::after{
+.navbar ul li:hover::after {
     width: 100%;
 }
 
@@ -76,17 +79,17 @@ background-position: center;
 }
 
 .content h1 {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
     font-family: quicksand;
 }
 
 .content p {
-    font-size: 23px ;
+    font-size: 20px;
     font-weight: 100;
     font-family: quicksand;
-    
+
 }
 
 .sobre {
@@ -106,7 +109,7 @@ background-position: center;
 }
 
 .sobre h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #FFF;
     font-family: quicksand;
 }
@@ -121,31 +124,33 @@ background-position: center;
 .card1 {
     width: 600px;
     border-radius: 10px;
-    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
     padding: 60px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
+
 .card1 p {
     text-align: justify;
     margin-top: 30px;
+    font-size: 17px;
     font-family: quicksand;
     color: rgb(207, 207, 207);
-    }
+}
 
-    .missaoimg{
-        width: 160px;
-        margin-bottom: 30px;
-    }
+.missaoimg {
+    width: 160px;
+    margin-bottom: 30px;
+}
 
 .card2 {
     width: 600px;
     border-radius: 10px;
-    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
     padding: 60px;
     flex-direction: column;
@@ -155,14 +160,23 @@ background-position: center;
 }
 
 .card2 p {
-text-align: justify;
-margin-top: 30px;
-font-family: quicksand;
-color: rgb(207, 207, 207);
+    text-align: justify;
+    margin-top: 30px;
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
+    font-size: 17px;
 
 }
 
-.compromissoimg{
+.card2 h2 {
+    font-size: 21px;
+}
+
+.card1 h2 {
+    font-size: 21px;
+}
+
+.compromissoimg {
     width: 160px;
 }
 
@@ -173,8 +187,8 @@ color: rgb(207, 207, 207);
     padding-top: 30px;
 }
 
-.tituloidvisual h1{
-    font-size: 50px;
+.tituloidvisual h1 {
+    font-size: 40px;
     color: #FFF;
     font-family: quicksand;
 }
@@ -187,20 +201,22 @@ color: rgb(207, 207, 207);
 
 .p-idvisual p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
 .cards {
     display: flex;
     justify-content: center;
-    width: 1000px;
-    
+    width: 80%;
+
 }
+
 .cards h2 {
     color: black;
     font-family: quicksand;
 }
+
 .cards p {
     color: black;
     font-family: quicksand;
@@ -209,7 +225,8 @@ color: rgb(207, 207, 207);
 .info1 {
     margin: 30px;
     border-radius: 10px;
-    background-color: #F9D933;;
+    background-color: #F9D933;
+    ;
     display: flex;
     flex-direction: column;
     justify-content: justify;
@@ -218,19 +235,20 @@ color: rgb(207, 207, 207);
     text-align: center;
 }
 
-.info1 img{
+.info1 img {
     border-radius: 40px;
     width: 200px;
 }
 
-.info1 h2{
+.info1 h2 {
     margin-top: 20px;
 }
 
 .info2 {
     margin: 30px;
     border-radius: 10px;
-    background-color: #F9D933;;
+    background-color: #F9D933;
+    ;
     display: flex;
     flex-direction: column;
     justify-content: justify;
@@ -239,20 +257,21 @@ color: rgb(207, 207, 207);
     text-align: center;
 }
 
-.info2 img{
+.info2 img {
     border-radius: 40px;
     width: 200px;
     background-color: #FFF;
 }
 
-.info2 h2{
+.info2 h2 {
     margin-top: 20px;
 }
 
 .info3 {
     margin: 30px;
     border-radius: 10px;
-    background-color: #F9D933;;
+    background-color: #F9D933;
+    ;
     display: flex;
     flex-direction: column;
     justify-content: justify;
@@ -261,13 +280,13 @@ color: rgb(207, 207, 207);
     text-align: center;
 }
 
-.info3 img{
+.info3 img {
     border-radius: 40px;
     width: 200px;
     height: 200px;
 }
 
-.info3 h2{
+.info3 h2 {
     margin-top: 20px;
 }
 
@@ -276,11 +295,13 @@ color: rgb(207, 207, 207);
     text-align: center;
     margin-bottom: 20px;
 }
+
 .info2 h2 {
     margin-bottom: 15px;
     text-align: center;
     margin-bottom: 20px;
 }
+
 .info3 h2 {
     margin-bottom: 15px;
     text-align: center;
@@ -289,14 +310,14 @@ color: rgb(207, 207, 207);
 
 
 .p-idvisual {
- display: flex;
- font-size: 18px;
- justify-content: center;
- align-items: center;
- margin: 20px;
- padding: 20px;
- font-family: quicksand;
- color: rgb(207, 207, 207);
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
 }
 
 .p-idvisual h2 p {
@@ -317,63 +338,64 @@ color: rgb(207, 207, 207);
     align-items: center;
 }
 
-.titulo-g-sociais h2{
+.titulo-g-sociais h2 {
     display: flex;
     justify-content: center;
     color: #FFF;
     margin: 40px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: quicksand;
 }
 
 .gerenciamento-redes-sociais p {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
-.texto-g-sociais{
+.texto-g-sociais {
     display: flex;
     padding: 5px;
     margin: auto;
 }
 
 .texto-g-sociais {
-    flex-direction:column;
+    flex-direction: column;
     width: 80%;
 }
 
-.textos-g { 
+.textos-g {
     display: flex;
     flex-direction: row;
-    padding:30px;
+    padding: 30px;
     align-items: center;
     margin: 20px;
     background-color: #181818;
     box-shadow: 0px 0px 8px 6px #eeedea70;
     border-radius: 10px;
     padding: 10px;
-    
+
 }
 
-.textos-g  h1, p{
+.textos-g h1,
+p {
     color: rgb(214, 214, 214);
     margin-left: 5px;
 }
 
-.textos-g  p{
+.textos-g p {
     width: 50%;
     text-align: center;
 }
 
-.textos-g  h1{
+.textos-g h1 {
     font-size: 24px;
     text-align: center;
 }
 
-.textos-g  img{
-   height: 110px;
-   margin-bottom:20px;
-   margin-right: 20px;
-   margin-left: 20px;
+.textos-g img {
+    height: 110px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 
@@ -385,28 +407,28 @@ color: rgb(207, 207, 207);
     align-items: center;
     font-family: quicksand;
     color: rgb(207, 207, 207);
-   }
-   
-   .p-idvisual2 h2 p {
-       font-family: quicksand;
-   }
+}
+
+.p-idvisual2 h2 p {
+    font-family: quicksand;
+}
 
 
 /** --------------------     Trafego Pago   -----------------------  **/
 
-   .sessao4 {
+.sessao4 {
     background-color: rgb(37, 37, 37);
-   }
+}
 
-   .tituloidvisual3 {
+.tituloidvisual3 {
     justify-content: center;
     align-items: center;
     display: flex;
     padding: 40px;
 }
 
-.tituloidvisual3 h1{
-    font-size: 50px;
+.tituloidvisual3 h1 {
+    font-size: 40px;
     color: #FFF;
     font-family: quicksand;
 }
@@ -419,27 +441,28 @@ color: rgb(207, 207, 207);
 
 .p-idvisual3 p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-   .card1 {
+.card1 {
     width: 40%;
     border-radius: 10px;
-    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
     padding: 60px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
+
 .card1 p {
     text-align: justify;
     margin-top: 30px;
     font-family: quicksand;
     color: rgb(207, 207, 207);
-    }
+}
 
 
 .card2 {
@@ -455,15 +478,15 @@ color: rgb(207, 207, 207);
 }
 
 .card2 p {
-text-align: justify;
-margin-top: 30px;
-font-family: quicksand;
-color: rgb(207, 207, 207);
+    text-align: justify;
+    margin-top: 30px;
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
 
 }
 
-.tituloidvisual h1{
-    font-size: 50px;
+.tituloidvisual h1 {
+    font-size: 40px;
     color: #FFF;
     font-family: quicksand;
 }
@@ -490,12 +513,12 @@ color: rgb(207, 207, 207);
 }
 
 
-.info1-trafego h2{
+.info1-trafego h2 {
     margin-top: 20px;
     color: #FFF;
 }
 
-.info1-trafego p{
+.info1-trafego p {
     color: #FFF;
 }
 
@@ -513,12 +536,12 @@ color: rgb(207, 207, 207);
 }
 
 
-.info2-trafego h2{
+.info2-trafego h2 {
     margin-top: 20px;
     color: #FFF;
 }
 
-.info2-trafego p{
+.info2-trafego p {
     color: #FFF;
 }
 
@@ -535,12 +558,12 @@ color: rgb(207, 207, 207);
     text-align: center;
 }
 
-.info3-trafego h2{
+.info3-trafego h2 {
     margin-top: 20px;
     color: #FFF;
 }
 
-.info3-trafego p{
+.info3-trafego p {
     color: #FFF;
 }
 
@@ -549,11 +572,13 @@ color: rgb(207, 207, 207);
     text-align: center;
     margin-bottom: 20px;
 }
+
 .info2-trafego h2 {
     margin-bottom: 15px;
     text-align: center;
     margin-bottom: 20px;
 }
+
 .info3-trafego h2 {
     margin-bottom: 15px;
     text-align: center;
@@ -563,8 +588,8 @@ color: rgb(207, 207, 207);
 .cards-trafego {
     display: flex;
     justify-content: center;
-    width: 1200px;
-    
+    width: 90%;
+
 }
 
 
@@ -578,6 +603,7 @@ color: rgb(207, 207, 207);
     display: flex;
     padding-top: 30px;
 }
+
 .sobreDev {
     width: 100%;
     height: 100%;
@@ -597,14 +623,14 @@ color: rgb(207, 207, 207);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.conteudosobreDev p{
-    font-size: 18px;
+.conteudosobreDev p {
+    font-size: 17px;
 }
 
-.numerosimg{
+.numerosimg {
     width: 50px;
     margin-bottom: 30px;
     border-radius: 2px;
@@ -618,27 +644,28 @@ color: rgb(207, 207, 207);
 .carddev1 {
     width: 40%;
     border-radius: 10px;
-    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
     padding: 70px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
+
 .carddev1 p {
     text-align: justify;
     margin-top: 30px;
     font-family: quicksand;
     color: rgb(207, 207, 207);
-    }
+}
 
 
 .carddev2 {
     width: 600px;
     border-radius: 10px;
-    box-shadow: 0 4ox 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4ox 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 15px;
     padding: 60px;
     flex-direction: column;
@@ -658,9 +685,9 @@ color: rgb(207, 207, 207);
 /** ---------------  Implementação de Ferramentas de Automação ---------------**/
 
 
-.sessao6{
-background-color: #181818;
-background-size: 100%;
+.sessao6 {
+    background-color: #181818;
+    background-size: 100%;
 }
 
 .tituloautomacao {
@@ -672,8 +699,8 @@ background-size: 100%;
     align-items: center;
 }
 
-.tituloautomacao h1{
-    font-size: 50px;
+.tituloautomacao h1 {
+    font-size: 40px;
     color: #FFF;
     font-family: quicksand;
     margin: 5% 15% 0% 15%;
@@ -690,7 +717,7 @@ background-size: 100%;
 
 .p-automacao p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     margin: 3% 15% 3% 15%;
 }
 
@@ -699,12 +726,14 @@ background-size: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    
+
 }
+
 .cardsautomacao h2 {
     color: black;
     font-family: quicksand;
 }
+
 .cardsautomacao p {
     color: black;
     font-family: quicksand;
@@ -719,18 +748,18 @@ background-size: 100%;
     align-items: center;
 }
 
-.info1automacao-image{
+.info1automacao-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .info1automacao-text {
     padding: 10px;
 }
 
-.info1automacao img{
+.info1automacao img {
     border-radius: 40px;
     width: 70px;
     margin-right: 40px;
@@ -739,12 +768,12 @@ background-size: 100%;
     align-items: center;
 }
 
-.info1automacao h2{
+.info1automacao h2 {
     margin-top: 20px;
     color: white;
 }
 
-.info1automacao p{
+.info1automacao p {
     color: white;
 }
 
@@ -763,7 +792,7 @@ background-size: 100%;
 
 /** ------------   Manutenção de aparelhos eletrônicos -----------------**/
 
-.tituloManutencao h1{
+.tituloManutencao h1 {
     font-size: 40px;
     display: flex;
     padding-top: 20px;
@@ -772,6 +801,7 @@ background-size: 100%;
     align-items: center;
     text-align: center;
 }
+
 .manutencao {
     width: 100%;
     height: 100%;
@@ -785,10 +815,10 @@ background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.conteudoManutencao p{
+.conteudoManutencao p {
     font-size: 18px;
 }
 
@@ -806,8 +836,9 @@ background-size: 100%;
     align-items: center;
     justify-content: center;
 
-    
+
 }
+
 .cardmanutencao1 p {
     text-align: justify;
     margin-top: 30px;
@@ -815,7 +846,7 @@ background-size: 100%;
     font-family: quicksand;
     color: rgb(207, 207, 207);
     font-size: 17px;
-    }
+}
 
 
 .cardmanutencao2 {
@@ -847,131 +878,233 @@ background-size: 100%;
 /** ---------------  Configuração de Redes e segurança de dados ---------------**/
 
 
-.sessao8{
+.sessao8 {
     background-color: #181818;
     background-size: 100%;
-    }
-    
-    .tituloRedes {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-top: 30px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .tituloRedes h1{
-        font-size: 50px;
-        color: #FFF;
-        font-family: quicksand;
-        margin: 5% 15% 0% 15%;
-        text-align: center;
-    
-    }
-    
-    .conteudoRedes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .cardsRedes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
+}
 
-    .p-Redes p {
-        text-align: center;
-        font-size: 20px;
-        margin: 3% 15% 3% 15%;
-    }
-    
+.tituloRedes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
 
-    .p-Redes h2 p {
-        font-family: quicksand;
-        color: rgb(207, 207, 207);
-    }
+.tituloRedes h1 {
+    font-size: 40px;
+    color: #FFF;
+    font-family: quicksand;
+    margin: 5% 15% 0% 15%;
+    text-align: center;
 
-    .tabelaRedes {
-        width: 80%;
-        border-radius: 20px;
-        font-size: 18px;
-        font-family: quicksand;
-        color: rgb(207, 207, 207);
-        background-color: rgb(37, 37, 37);
-        
-    }
+}
 
-    .tabelaRedes td {
-        border: 3px solid #181818 ;
-        padding: 20px;
-        font-family: quicksand;
-    }
+.conteudoRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.p-Redes p {
+    text-align: center;
+    font-size: 15px;
+    margin: 3% 15% 3% 15%;
+}
 
 
-    /**------------------ Quem somos --------------------**/
+.p-Redes h2 p {
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
+}
 
-    .sessao9 {
-        background-color: rgb(29, 29, 29);
-    }
+.tabelaRedes {
+    width: 60%;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: quicksand;
+    color: rgb(207, 207, 207);
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 20px;
+
+}
+
+.tabelaRedes td {
+    border: 3px solid #181818;
+    padding: 18px;
+    font-family: quicksand;
+}
 
 
-    .tituloPessoas {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-top: 30px;
-        margin-bottom: 40px;
-    }
-    
-    .tituloPessoas h1{
-        font-size: 50px;
-        color: #FFF;
-        font-family: quicksand;
-    }
-    
-    .conteudoPessoas {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-        
-    .cardsPessoas {
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        
-    }
-    .cardsPessoas h2 {
-        color: rgb(207, 207, 207);
-        font-family: quicksand;
-    }
-    .cardsPessoas p {
-        color: rgb(207, 207, 207);
-        font-family: quicksand;
-    }
-    
-    .infoPessoas {
-        display: flex;
-        flex-direction: column;
-        justify-content: justify;
-        align-items: center;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .infoPessoas img{
-        border-radius: 50%;
-        width: 200px;
-    }
-    
-    .infoPessoas h2{
-        margin-top: 20px;
-    }
+/**------------------ Quem somos --------------------**/
+
+.sessao9 {
+    background-color: rgb(29, 29, 29);
+}
+
+
+.tituloPessoas {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tituloPessoas h1 {
+    font-size: 40px;
+    color: #FFF;
+    font-family: quicksand;
+}
+
+.conteudoPessoas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsPessoas {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+}
+
+.cardsPessoas h2 {
+    font-size: 22px;
+    color: rgb(207, 207, 207);
+    font-family: quicksand;
+}
+
+.cardsPessoas p {
+    font-size: 15px;
+    color: rgb(207, 207, 207);
+    font-family: quicksand;
+}
+
+.infoPessoas {
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.infoPessoas img {
+    border-radius: 50%;
+    width: 150px;
+    transition: all 0.3s;
+}
+
+.infoPessoas img:hover {
+    opacity: 0.45;
+}
+
+.infoPessoas h2 {
+    margin-top: 20px;
+}
+
+/**----------------- Footer -----------------**/
+
+.footer {
+    width: 100%;
+    font-family: quicksand;
+    align-items: center;
+}
+
+.footer_link {
+    text-decoration: none;
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem 3.5rem;
+
+}
+
+.footer_contacts h1 {
+    color: rgb(207, 207, 207);
+}
+
+.footer_contacts p {
+    color: rgb(207, 207, 207);
+    margin-top: 2.0rem;
+}
+
+#footer_list {
+    color: rgb(207, 207, 207);
+    font-size: 0.75rem;
+
+}
+
+.footer_copyright {
+    background-color: #0f0f0f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cfcdcd;
+    font-family: quicksand;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+}
+
+#footer_social_media .footer_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    transition: all 0.4s;
+
+}
+
+#footer_social_media .footer_link:hover {
+    opacity: 0.10;
+}
+
+#footer_social_media .footer_link i {
+    font-size: 1.30rem;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+#footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+#footer_list .footer_link {
+    color: rgb(179, 177, 177);
+    transition: all 0.4s;
+}
+
+#footer_list .footer_link:hover {
+    color: #F9D933;
+}
 
 
 /**----------------- media queries -----------------**/
@@ -979,24 +1112,24 @@ background-size: 100%;
 
 @media screen and (max-width: 768px) {
 
- 
+
 
     .content h1 {
         font-size: 40px;
-        
+
     }
 
     .content p {
         font-size: 16px;
         margin-bottom: 170px;
-        
+
     }
 
-    .titulosobre h1{
+    .titulosobre h1 {
         font-size: 40px;
     }
 
-    .missaoimg{
+    .missaoimg {
         width: 100px;
         margin-left: 30px;
     }
@@ -1010,25 +1143,26 @@ background-size: 100%;
         width: 60%;
         padding: 30px;
     }
-    .card1 h2{
+
+    .card1 h2 {
         font-size: 23px;
     }
- 
+
     .card2 {
         width: 60%;
         padding: 30px;
     }
 
-    .card2 h2{
+    .card2 h2 {
         font-size: 23px;
     }
 
-    .tituloidvisual h1{
+    .tituloidvisual h1 {
         font-size: 40px;
 
     }
 
-    .p-idvisual p{
+    .p-idvisual p {
         font-size: 17px;
     }
 
@@ -1044,30 +1178,32 @@ background-size: 100%;
 
     .gerenciamento-redes-sociais p {
         font-size: 17px;
-        
+
     }
 
     .texto-g-sociais {
-        flex-direction:column;
+        flex-direction: column;
         width: 70%;
     }
 
-    .textos-g { 
+    .textos-g {
         margin: 10px;
         background-color: #181818;
         box-shadow: 0px 0px 8px 6px #eeedea70;
         border-radius: 10px;
         padding: 10px;
         flex-direction: column;
-        
+
     }
-    .textos-g img{ 
+
+    .textos-g img {
         height: 100px;
     }
 
     .texto-g-sociais h1 {
         font-size: 18px;
     }
+
     .texto-g-sociais img {
         font-size: 18px;
     }
@@ -1076,9 +1212,9 @@ background-size: 100%;
         flex-direction: column;
         width: 70%;
     }
-    
 
-    .tituloidvisual3 h1{
+
+    .tituloidvisual3 h1 {
         font-size: 40px;
     }
 
@@ -1091,33 +1227,58 @@ background-size: 100%;
         font-size: 40px;
     }
 
-.conteudosobreDev {
-    flex-direction: column-reverse;
-    margin-bottom: 50px;
-}
-
-.carddev1 {
-    padding: 0;
-}
-
-.carddev1 img {
-    margin-top: 30px;
-}
-
-.carddev1 p {
-    margin:0px;
-}
-
-.tituloautomacao h1{
-font-size: 40px;
-}
-
-.sessao6 p{
-    font-size: 17px;
-}
-
-.banner #particles-js{
-    height:600px;
+    .conteudosobreDev {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
     }
 
+    .carddev1 {
+        padding: 0;
+    }
+
+    .carddev1 img {
+        margin-top: 30px;
+    }
+
+    .carddev1 p {
+        margin: 0px;
+    }
+
+    .tituloautomacao h1 {
+        font-size: 40px;
+    }
+
+    .sessao6 p {
+        font-size: 17px;
+    }
+
+    .banner #particles-js {
+        height: 600px;
+    }
+
+    .footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+
+
+
+    .footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+    .footer_contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_contacts p {
+        text-align: center;
+    }
 }
