@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRS Vision</title>
+    <link rel="shortcut icon" type="imagex/png" href="logo.ico">
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,23 +21,38 @@
 </head>
 
 <body>
-
     <!-- ---------------- Menu de navegação ---------------- -->
-    <div class="banner">
-        <div class="navbar">
-            <img src="logo.png" class="logo">
-            <ul>
-                <li><a href="#content">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Pacotes e preços</a></li>
+    <header>
+        <nav class="nav-bar"> 
+            <div class="logo" >
+                <h1>Logo</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>    
+                    <li class="nav-item"><a href="#home" class="nav-linkk">Home</a></li>
+                    <li class="nav-item"><a href="#quemsomos" class="nav-linkk">Quem somos</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-linkk">Missão</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"> <img  class="botaomenu" src="icons/menu_white_36dp.svg" alt=""> </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>    
+                <li class="nav-item"><a href="" class="nav-linkk">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-linkk">Quem somos</a></li>
+                <li class="nav-item"><a href="" class="nav-linkk">Missão</a></li>
             </ul>
         </div>
 
-        <!-- ---------------- página principal (HOME) ---------------- -->
-        <div class="content">
+    </header>
+    <!-- ---------------- página principal (HOME) ---------------- -->
+    <div class="banner">  
+        <div class="content" id="home">
             <h1>Bem-vindo à <br> nossa agência de marketing</h1>
             <p>Ajudamos empresas de todos os tamanhos <br> a conquistar
                 destaque nas redes sociais e impulsionar seu crescimento.</p>
@@ -45,13 +61,13 @@
     </div>
 
     <!-- ---------------- Sobre ---------------- -->
-    <div class="sobre">
+    <div class="sobre" id="sobre">
         <div class="titulosobre">
             <h1>Sobre nós</h1>
         </div>
         <div class="conteudosobre">
             <div class="card1">
-                <img class="missaoimg" src="missaoimg.png" alt="Imagem de missão">
+                <img class="missaoimg" src="images/missaoimg.png" alt="Imagem de missão">
                 <h2>Nossa missão</h2>
                 <p>&nbsp; &nbsp; &nbsp;Ajudamos nossos clientes a alcançar seus objetivos de negócios com serviços de
                     marketing digital, desenvolvimento de sites e programas, automação com inteligência artificial, e
@@ -59,7 +75,7 @@
                     impulsionar o crescimento e sucesso dos nossos clientes.</p>
             </div>
             <div class="card2">
-                <img class="compromissoimg" src="compromisso.png" alt="Imagem de compromisso">
+                <img class="compromissoimg" src="images/compromisso.png" alt="Imagem de compromisso">
                 <h2>Nosso Compromisso</h2>
                 <p>&nbsp; &nbsp; &nbsp;Desenvolvemos estratégias personalizadas para cada cliente, combinando nossa
                     expertise técnica com criatividade para gerar resultados tangíveis e sustentáveis. Nosso foco é
@@ -80,20 +96,20 @@
             <div class="cards">
 
                 <div class="info1">
-                    <img src="imgcard1.png" alt="">
+                    <img src="images/imgcard1.png" alt="">
                     <h2>Logo tipo personalizado</h2>
                     <p> Criamos logotipos memoráveis que transmitem a essência da sua marca. </p>
                 </div>
 
                 <div class="info2">
-                    <img src="imgcard2.png" alt="">
+                    <img src="images/imgcard2.png" alt="">
                     <h2>Design de materiais gráficos</h2>
                     <p> Desenvolvemos cartões de visita, flyers, banners e outros materiais gráficos que comunicam sua
                         mensagem com impacto. </p>
                 </div>
 
                 <div class="info3">
-                    <img src="imgcard3.png" alt="">
+                    <img src="images/imgcard3.png" alt="">
                     <h2>Definição de estilo visual</h2>
                     <p> Criamos uma paleta de cores e estilo visual coeso para a sua marca, garantindo uma imagem
                         consistente em todos os seus materiais. </p>
@@ -120,27 +136,27 @@
 
                 <div class="texto-g-sociais">
                     <div class="textos-g">
-                        <img src="planejamento-conteudo.png" alt="">
+                        <img src="images/planejamento-conteudo.png" alt="">
                         <h1>Planejamento de conteúdo</h1>
 
                     </div>
                     <div class="textos-g">
-                        <img src="criacao-conteudo.png" alt="">
+                        <img src="images/criacao-conteudo.png" alt="">
                         <h1>Criação de Conteúdo</h1>
 
                     </div>
                     <div class="textos-g">
-                        <img src="monitoramento-analise.png" alt="">
+                        <img src="images/monitoramento-analise.png" alt="">
                         <h1>Monitoramento e Análise</h1>
 
                     </div>
                     <div class="textos-g">
-                        <img src="gerenciamento-comunidades.png" alt="">
+                        <img src="images/gerenciamento-comunidades.png" alt="">
                         <h1>Gerenciamento de Comunidades</h1>
 
                     </div>
                     <div class="textos-g">
-                        <img src="gerenciameneto-campanhas.png" alt="">
+                        <img src="images/gerenciameneto-campanhas.png" alt="">
                         <h1>Gerenciamento de Campanhas</h1>
 
                     </div>
@@ -193,17 +209,17 @@
             </div>
             <div class="conteudosobreDev">
                 <div class="carddev1">
-                    <img class="numerosimg" src="1.png" alt="Imagem de missão">
+                    <img class="numerosimg" src="images/1.png" alt="Imagem de missão">
                     <h2>Sites Responsivos</h2>
                     <p>&nbsp; &nbsp; &nbsp;Desenvolvemos sites que se adaptam a qualquer dispositivo, garantindo uma
                         experiência perfeita para seus usuários.</p>
 
-                    <img class="numerosimg" src="2.png" alt="Imagem de missão">
+                    <img class="numerosimg" src="images/2.png" alt="Imagem de missão">
                     <h2>Software Personalizado</h2>
                     <p>&nbsp; &nbsp; &nbsp;Criamos softwares sob medida para atender às necessidades específicas do seu
                         negócio.</p>
 
-                    <img class="numerosimg" src="3.png" alt="Imagem de missão">
+                    <img class="numerosimg" src="images/3.png" alt="Imagem de missão">
                     <h2>Aplicativos Móveis</h2>
                     <p>&nbsp; &nbsp; &nbsp;Desenvolvemos aplicativos para Android e iOS, tornando seus serviços mais
                         acessíveis aos seus clientes.</p>
@@ -211,7 +227,7 @@
                 <div class="carddev2">
                     <p>Criamos soluções digitais personalizadas que atendem às suas necessidades e impulsionam o sucesso
                         do seu negócio.</p>
-                    <img class="devImg" src="devImg.png" alt="Imagem de compromisso">
+                    <img class="devImg" src="images/devImg.png" alt="Imagem de compromisso">
                 </div>
             </div>
         </div>
@@ -233,7 +249,7 @@
 
                     <div class="info1automacao">
                         <div class="info1automacao-image">
-                            <img src="num1.png" alt="">
+                            <img src="images/num1.png" alt="">
                         </div>
                         <div class="info1automacao-text">
                             <h2>Integração de Soluções</h2>
@@ -243,7 +259,7 @@
                     </div>
                     <div class="info1automacao">
                         <div class="info1automacao-image">
-                            <img src="num2.png" alt="">
+                            <img src="images/num2.png" alt="">
                         </div>
                         <div class="info1automacao-text">
                             <h2>Automação de Processos</h2>
@@ -254,7 +270,7 @@
 
                     <div class="info1automacao">
                         <div class="info1automacao-image">
-                            <img src="num3.png" alt="">
+                            <img src="images/num3.png" alt="">
                         </div>
                         <div class="info1automacao-text">
                             <h2>Inteligência Artificial</h2>
@@ -265,7 +281,7 @@
 
                     <div class="info1automacao">
                         <div class="info1automacao-image">
-                            <img src="num4.png" alt="">
+                            <img src="images/num4.png" alt="">
                         </div>
                         <div class="info1automacao-text">
                             <h2>Suporte Contínuo</h2>
@@ -296,7 +312,7 @@
 
                         </div>
                         <div class="cardmanutencao2">
-                            <img class="manutencaoImg" src="manutencao.png" alt="Imagem de manunteção">
+                            <img class="manutencaoImg" src="images/manutencao.png" alt="Imagem de manunteção">
                         </div>
                     </div>
                 </div>
@@ -345,7 +361,7 @@
             </div>
 
             <!-- ---------------- Nosso time ---------------- -->
-            <div class="sessao9">
+            <div class="sessao9" id="quemsomos">
                 <div class="tituloPessoas">
                     <h1>Quem somos</h1>
                 </div>
@@ -354,23 +370,23 @@
                     <div class="cardsPessoas">
 
                         <div class="infoPessoas">
-                            <img src="cesar.png" alt="">
+                            <img src="images/cesar.png" alt="">
                             <h2>César Eduardo</h2>
                             <p>Diretor de Marketing</p>
                         </div>
 
                         <div class="infoPessoas">
-                            <img src="felipe.png" alt="">
+                            <img src="images/felipe.png" alt="">
                             <h2>Felipe Gomes</h2>
                             <p>Programador Executivo</p>
                         </div>
                         <div class="infoPessoas">
-                            <img src="weverton.png" alt="">
+                            <img src="images/weverton.png" alt="">
                             <h2>Weverton Ergang</h2>
                             <p>Diretor de Tecnologia da <br>Informação</p>
                         </div>
                         <div class="infoPessoas">
-                            <img src="livia.png" alt="">
+                            <img src="images/livia.png" alt="">
                             <h2>Maria Lívia</h2>
                             <p>Analista Comercial</p>
                         </div>
@@ -381,9 +397,9 @@
         <!-- ---------------- Footer ---------------- -->
 
         <footer>
-            <div class="footer_content"> 
+            <div class="footer_content" id="footer"> 
                 <div class="footer_contacts">
-                    <img src="logo.png" class="logo">
+                    <img class="logo" src="images/logo.png" class="logo">
                     <p>Nos siga nas redes sociais.</p>
 
                     <div id="footer_social_media">
@@ -437,6 +453,7 @@
 
             <script type="text/javascript" src="particles.js"></script>
             <script type="text/javascript" src="app.js"></script>
+            <script type="text/javascript" src="scripts.js"></script>
 </body>
 
 </html>

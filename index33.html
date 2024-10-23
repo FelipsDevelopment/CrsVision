@@ -1,0 +1,67 @@
+<div class="navbar">
+    <img src="images/logo.png" class="logo">
+    <ul>
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link"href="#quemsomos">Equipe</a></li>
+        <li class="nav-item"><a class="nav-link"href="#footer">Contato</a></li>
+    </ul>
+
+    <div class="mobile-menu-icon">
+        <button> <img class="iconNav" src="icons/bars-solid.svg" alt=""></button>
+
+    </div>
+
+</div>
+
+
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    content: '';
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: quicksand;
+    font-size: 13px;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #F9D933;
+    ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
