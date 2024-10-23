@@ -180,6 +180,9 @@
     width: 160px;
 }
 
+
+/** --------------------- criação de identidade visual -----------------------**/
+
 .tituloidvisual {
     justify-content: center;
     align-items: center;
@@ -208,7 +211,7 @@
 .cards {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
 
 }
 
